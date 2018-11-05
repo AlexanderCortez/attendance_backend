@@ -1,0 +1,29 @@
+{
+  "name": "attendance_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderCortez/attendance_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderCortez/attendance_backend/issues"
+  },
+  "homepage": "https://github.com/AlexanderCortez/attendance_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.8",
+    "nodemon": "^1.18.5"
+  }
+}
